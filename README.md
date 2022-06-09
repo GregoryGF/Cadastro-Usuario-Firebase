@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![author](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gregory-froehlich-0b799b219/)
+# Projeto Cadastro Usuário com Fire Base
 
-## Getting Started
 
-First, run the development server:
+<div align="center">
+ 
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Objetivo 
+Criar uma aplicação com um formulário onde o usuário possa realizar um cadastro com nome e a idade, onde os dados são salvos no firebase. Permitindo adicionar, alterar ou excluir os cadastros. Para praticar um pouco de React, Nextjs, TypeScript, TailwindCSS e acessar os dados em um banco de dados externo.
+<hr>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Descrição 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Foi criado um projeto no [Firebase Console](https://console.firebase.google.com/?hl=pt-br), onde vão ser armazenados os dados dos usuários. Para o cadastro foi criado um projeto no firebase sem ativar o Google analytics, depois na criação do Banco de Dados no Firestore Database foi criado no modo de produção para não criar as regras acesso ao uso dos dados.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O projeto foi criado com o [Next.js](https://nextjs.org/) e foi utilizado [TailwindCSS](https://v2.tailwindcss.com/) a versão 2.2.19, que dá estilo ao projeto utilizando classes. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<hr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align="center">
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+</div>
 
-## Deploy on Vercel
+### Dependências 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O [Next.js](https://nextjs.org/) é com `npx create-next-app`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O [TailwindCSS](https://v2.tailwindcss.com/) com `npm install -D tailwindcss postcss autoprefixer` depois `npx tailwindcss init -p`
+
+O [TypeScript](https://www.typescriptlang.org/download) com `npm install --save-dev @types/react @types/node typescript`
+
+O [Firebase Console](https://console.firebase.google.com/?hl=pt-br) como foi com a versão 8.8.0 foi com `npm i firebase@8.8.0`
+
+<hr>
+
+#### Para iniciar o server 
+
+O  dentro no terminal diretório do projeto : `npm run dev`
+
+Ao rodar o comando vai iniciar a aplicação http://localhost:3000
