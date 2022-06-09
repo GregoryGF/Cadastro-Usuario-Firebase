@@ -3,7 +3,7 @@
 
 
 <div align="center">
- 
+ ![Cadastro](https://user-images.githubusercontent.com/97168221/172874297-c0e799e4-e583-44a3-9054-0a097c4409ae.PNG)
 </div>
 
 ### Objetivo 
@@ -21,7 +21,7 @@ O projeto foi criado com o [Next.js](https://nextjs.org/) e foi utilizado [Tailw
 <hr>
 
 <div align="center">
-
+![form](https://user-images.githubusercontent.com/97168221/172874319-3138cd65-c141-4b9a-a896-5526c162a5b6.PNG)
 </div>
 
 ### Dependências 
