@@ -3,7 +3,7 @@
 
 
 <div align="center">
- ![Cadastro](https://user-images.githubusercontent.com/97168221/172874297-c0e799e4-e583-44a3-9054-0a097c4409ae.PNG)
+ <img src="https://user-images.githubusercontent.com/97168221/172874297-c0e799e4-e583-44a3-9054-0a097c4409ae.PNG" />
 </div>
 
 ### Objetivo 
@@ -21,19 +21,23 @@ O projeto foi criado com o [Next.js](https://nextjs.org/) e foi utilizado [Tailw
 <hr>
 
 <div align="center">
-![form](https://user-images.githubusercontent.com/97168221/172874319-3138cd65-c141-4b9a-a896-5526c162a5b6.PNG)
+  <img src="https://user-images.githubusercontent.com/97168221/172874319-3138cd65-c141-4b9a-a896-5526c162a5b6.PNG"
 </div>
 
-### Dependências 
+ 
 
-O [Next.js](https://nextjs.org/) é com `npx create-next-app`
+<div align="start">
 
-O [TailwindCSS](https://v2.tailwindcss.com/) com `npm install -D tailwindcss postcss autoprefixer` depois `npx tailwindcss init -p`
+ ### Dependências 
+ 
+[Next.js](https://nextjs.org/) é com `npx create-next-app`
+ 
+[TailwindCSS](https://v2.tailwindcss.com/) com `npm install -D tailwindcss postcss autoprefixer` depois `npx tailwindcss init -p`
 
-O [TypeScript](https://www.typescriptlang.org/download) com `npm install --save-dev @types/react @types/node typescript`
+[TypeScript](https://www.typescriptlang.org/download) com `npm install --save-dev @types/react @types/node typescript`
 
-O [Firebase Console](https://console.firebase.google.com/?hl=pt-br) como foi com a versão 8.8.0 foi com `npm i firebase@8.8.0`
-
+[Firebase Console](https://console.firebase.google.com/?hl=pt-br) como foi com a versão 8.8.0 foi com `npm i firebase@8.8.0`
+</div>
 <hr>
 
 #### Para iniciar o server 
